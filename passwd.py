@@ -1,7 +1,8 @@
+password = 'a123456'
 x = 3;
 while x > 0:
 	passwd = input("please enter the password: ")
-	if passwd != 'a123456':
+	if passwd != password:
 		x = x - 1;
 		print('Error! your still have ', x, ' time(s) to try.' )
 	else:
